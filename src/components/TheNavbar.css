@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #1e90ff;
+  --white: #ffffff;
+}
+
+.layout .login-header {
+    background-color: var(--primary-color);
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.content {
+  padding: 10px 150px;
+  background-color: #fff;
+}
+
+.logo-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-link .logo-text {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 10px 50px;
+  }
+  section {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
